@@ -72,7 +72,7 @@ for (let i = 0; i < dataYangAkanDilooping.length; i++) {
       Apabila imbang, maka komentar akan berisi:
         "Jumlah Pria dan Wanita berimbang"
   */
-  let komentar = null;
+  
   let komentar = "";
 
   if (jumlahPria > jumlahWanita) {
