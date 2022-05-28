@@ -22,7 +22,7 @@ function lakukanLooping(arrPegawai) {
       yang berisi gabungan nama depan dan belakang dari masing masing pegawai             
       Contoh: ["Aisyah Nirmala", "Mansur Faisal", ...]
   */
- let hasilLooping = null;
+ let hasilLooping = "";
  
   
 
