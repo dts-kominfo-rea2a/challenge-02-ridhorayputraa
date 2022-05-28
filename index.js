@@ -51,7 +51,7 @@ for (let i = 0; i < dataYangAkanDilooping.length; i++) {
   hasilLooping.push(loop);
   // menghitung jumlah Pria
   if (dataYangAkanDilooping[i].jenisKelamin === "M") {
-      jumlahPria += 1;
+     jumlahPria += 1;
   }
   // menghitung jumlah Wanita
   if (dataYangAkanDilooping[i].jenisKelamin === "F") {
@@ -97,8 +97,8 @@ function main(data) {
   const hasil = lakukanLooping(data || arrayObjectPegawai);
 
   console.log(hasil.hasilLooping);
-  console.log(hasil.jumlahPria);
-  console.log(hasil.jumlahWanita);
+  console.log("jumlah pria adalah " + hasil.jumlahPria);
+  console.log("jumlah wanita adalah " + hasil.jumlahWanita);
 
   return hasil;
 }
